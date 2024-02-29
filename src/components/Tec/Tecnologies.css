@@ -1,0 +1,28 @@
+#container-tec{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.tec-content{
+    width:80vw;
+    margin: auto;
+}
+.tecnologies-text{
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #009FD6;
+
+
+}
+.tec-card-content{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap; 
+}

@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bolhas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.bolhas span {
+  width: 40px; /* Ajuste o tamanho das bolhas conforme desejado */
+  height: 30px; /* Ajuste o tamanho das bolhas conforme desejado */
+  background-color: #00a0d66c;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #00a0d66f;
+  animation: animar calc(350s / var(--i)) linear infinite;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 700;
+  margin: 2rem 0;
+  font-family: "Red Hat Display", sans-serif;
+
+}
+
+.color {
+  color: #009FD6;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+
+.hello {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.first-page-button {
+  color: black;
+  width: auto; /* Ajustando a largura automaticamente para se adaptar ao conteúdo */
+  height: auto; /* Ajustando a altura automaticamente para se adaptar ao conteúdo */
+  padding: 16px 48px; /* Alterando a forma como o padding é definido */
+  border-radius: 16px;
+  background-color: #ffff;
+  margin-top: 3rem;
+  display: flex; /* Adicionando para tornar o botão responsivo */
+  align-items: center; /* Adicionando para alinhar verticalmente */
+  justify-content: center; /* Adicionando para alinhar horizontalmente */
+  max-width: 100%; /* Garantindo que o botão não exceda a largura máxima */
+  box-sizing: border-box; /* Garantindo que o padding não aumente o tamanho do botão */
+}
+
+/* Adicionando uma transição suave quando houver alterações no botão */
+
+
+@keyframes animar {
+  0% {
+      transform: translateY(100vh) scale(0);
+  }
+  100% {
+      transform: translateY(-10vh) scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+      font-size: 6vw;
+  }
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.container-header {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px 4%; /* Reduzido o espaçamento para telas menores */
+    min-height: 10vh; /* Reduzido a altura mínima */
+    max-height: 15vh; /* Reduzido a altura máxima */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px; /* Reduzido o espaçamento entre os itens do menu para telas menores */
+    font-family:'Mulish';
+    font-weight: 500;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* No seu código CSS anterior */
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Adicionado aqui */
+    background-color: #171F2B;
+    color: #6587BF;
+    border: solid 1px #6587BF ;
+    border: none;
+    width: auto;
+    min-width: 148px;
+    height: 54px;
+    padding: 0 32px;
+    border-radius: 16px;
+    border: solid 1px #212C3E;
+    gap: 8px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+  button:hover {
+    opacity: 0.5; /* Alterando a cor de fundo ao passar o mouse */
+    transition: 0.5s ease; 
+  }
+/* Adicionado media query para ajustar o layout em telas menores */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 20px 4%; /* Reduzido o espaçamento para telas menores */
+    }
+    header nav ul li {
+        margin: 0 10px; /* Reduzido o espaçamento entre os itens do menu para telas ainda menores */
+    }
+    button {
+        padding: 10px 20px; /* Reduzido o padding para telas menores */
+        font-size: 12px; /* Reduzido ainda mais o tamanho da fonte para telas menores */
+    }
+}
