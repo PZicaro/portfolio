@@ -12,7 +12,6 @@ import Tecnologies from './components/Tec/Tecnologies'
 import html from './imagens/html.svg'
 
 
-
 function App() {
   let imagens = [photoHeader, gitLogo, emoji, upload, foto];
 

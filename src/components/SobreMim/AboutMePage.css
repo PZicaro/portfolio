@@ -130,3 +130,22 @@
 #radio5:checked ~ .first {
     margin-left: -66.65%;
 }
+
+.nav-auto div{
+    border: solid 1px #6587BF ;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav-auto{
+    position: absolute;
+    width: 280px;
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+
+
+}
