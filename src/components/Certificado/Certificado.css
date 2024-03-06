@@ -1,0 +1,62 @@
+.certificado1{
+    width: 280px;
+    height: 200px;
+    background: url('./imagensCertificados/certificado1.png');
+    background-size: cover;
+    transition: ease 0.8s;
+    border-radius: 4px;
+}
+.certificado2{
+    width: 280px;
+    height: 200px;
+    background: url('./imagensCertificados/certificado2.png');
+    background-size: cover;
+    transition: ease 0.8s;
+    border-radius: 4px;
+}
+.certificado3{
+    width: 280px;
+    height: 200px;
+    background: url('./imagensCertificados/certificado3.png');
+    background-size: cover;
+    transition: ease 0.8s;
+    border-radius: 4px;
+}
+.certificado4{
+    width: 280px;
+    height: 200px;
+    background: url('./imagensCertificados/certificado4.png');
+    background-size: cover;
+    transition: ease 0.8s;
+    border-radius: 4px;
+}
+.certificado5{
+    width: 280px;
+    height: 200px;
+    background: url('./imagensCertificados/certificado5.png');
+    background-size: cover;
+    transition: ease 0.8s;
+    border-radius: 4px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    transition: 1s;
+    padding-bottom: 50%;
+    height: 100%;
+    
+  }
+  .filter:hover {
+    background: rgba(0, 0, 0, 0.7)
+  }
+  .filter-text{
+    margin-top: 110px ;
+    opacity: 0;
+    transition: 1s;
+}
+.filter:hover .filter-text {
+    opacity: 1;
+  }

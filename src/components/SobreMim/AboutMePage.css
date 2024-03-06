@@ -43,3 +43,90 @@
 .text-contact{
     color: rgba(0, 255, 255, 0.5);
 }
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #141b2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.diploma-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #cccccc;
+}
+.teste{
+     width: 280px;
+}
+
+
+  .slider{
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .slides{
+    width: 600%;
+    height: 280px;
+    display: flex;
+  }
+  .slides input{
+    display: none;
+  }
+  .slide{
+    width:25%;
+    position: relative;
+  }
+  .nav-manual, .nav-auto{
+    position: absolute;
+    width: 280px;
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+  }
+  .manual-btn, .nav-auto div{
+    border: solid 1px #6587BF ;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:hover{
+    background-color:#6587BF;
+  }
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    margin-left: -16.65%;
+}
+#radio3:checked ~ .first {
+    margin-left: -33.3%;
+}
+#radio4:checked ~ .first {
+    margin-left: -49.96%;
+}
+#radio5:checked ~ .first {
+    margin-left: -66.65%;
+}
