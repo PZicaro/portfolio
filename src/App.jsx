@@ -10,6 +10,7 @@ import AboutMePage from './components/SobreMim/AboutMePage'
 import foto from './imagens/foto.jpg'
 import Tecnologies from './components/Tec/Tecnologies'
 import html from './imagens/html.svg'
+import SitePage from './components/sitesPage/SitePage'
 function App() {
   let imagens = [photoHeader, gitLogo, emoji, upload, foto];
 
@@ -19,6 +20,7 @@ function App() {
     <FirstPage image={imagens}/>
     <AboutMePage image={imagens}/>
     <Tecnologies tecImages={html}/>
+    <SitePage/>
 
    
     </>
