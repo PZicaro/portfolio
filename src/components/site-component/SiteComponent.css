@@ -1,9 +1,13 @@
-/* Estilos adicionais para o componente MyWebsitesPage */
 .tec-card-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
+
+.tec-card-content .website-card {
+  height: 250px; /* Defina a altura desejada para todas as divs */
+}
+
 
 
 
@@ -16,11 +20,13 @@
   position: relative;
   overflow: hidden;
   border-radius: 16px;
+  height: 100%; /* Ajuste a altura da div da imagem para ocupar toda a altura da div pai */
 }
 
 .image-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; /* Ajuste o comportamento de ajuste da imagem */
   transition: transform 0.3s ease;
 }
 
