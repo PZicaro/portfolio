@@ -16,7 +16,7 @@ import linkedin from './public/linkedin.svg'
 import Contato from './components/ContatoPage/Contato'
 import SitePage from './components/sitesPage/SitePage'
 function App() {
-  let imagens = [photoHeader, gitLogo, emoji, upload, foto, wpp, linkedin, gitLogoContato];
+  let imagens = [photoHeader, gitLogo, emoji, upload, foto, wpp, linkedin, gitLogoContato, html];
   
 
   return (
