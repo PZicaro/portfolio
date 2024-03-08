@@ -10,7 +10,7 @@ const SitePage = () => {
       {
         image: enxoval,
         title: 'Site de Casamento',
-        link: 'https://example.com/website1',
+        link: 'https://casamento-781qihv31-pzicaro.vercel.app',
         technologies: ['React', 'Styled-components', 'FireBase', 'TypeScript']
       },
       {
@@ -25,12 +25,7 @@ const SitePage = () => {
         link: 'https://site-it.vercel.app',
         technologies: ['HTML', 'CSS', 'JavaScript']
       },
-      {
-        image: 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg',
-        title: 'Website 1',
-        link: 'https://example.com/website1',
-        technologies: ['HTML', 'CSS', 'JavaScript']
-      },
+      
       
       // Add more website objects as needed
     ];
