@@ -1,20 +1,24 @@
-.card{
-    width: 134px;
-    height: 124px;
-    padding: 28px, 72px, 24px, 16px;
-    border-radius: 16px;
-    border: 1px;
-    gap: 8px;
-    background: #171F2B;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 16px;
+.card {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  border: 1px solid transparent; /* Adicionei solid */
+  background: #171F2B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionado transição para suavizar a animação */
 }
-.tecnologies-image{
-    width: 32px;
-    height: 37.33px;
-    top: 2.67px;
-    margin-bottom: 8px;
 
+.card:hover {
+  transform: translateY(-5px); /* Move o card para cima ao passar o mouse */
+  box-shadow: 0 0 20px 5px #009FD6; /* Adiciona um brilho ao fundo */
 }
+
+.tecnologies-image {
+  width: 32px;
+  height: 37.33px;
+  margin-bottom: 8px;
+}
+

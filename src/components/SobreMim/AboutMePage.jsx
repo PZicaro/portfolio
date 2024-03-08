@@ -5,7 +5,7 @@ import Carrossel from '../Carrossel/Carrossel';
 
 const AboutMePage = ({image,}) => {
     return (
-        <div className="about-me-container">
+        <div id='about-me' className="about-me-container">
             
             <div className="about-me-content">
                 <img src={image[4]} alt="Minha Foto" className="profile-picture" /> 
