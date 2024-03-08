@@ -13,7 +13,7 @@ const AboutMePage = ({image,}) => {
                     <h1 className="title">Sobre Mim</h1>
                     <p className="description">
                         Olá! Meu nome é Ícaro Rodrigues, tenho 20 anos. Sou um entusiasta da tecnologia, apaixonado por desenvolvimento de software e design de experiência do usuário.
-                        Sempre estou buscando aprender novas maneiras de melhorar minhas skills e meu produto. <a href="#" className='text-contact'>Clique aqui para entrar em contato</a>
+                        Sempre estou buscando aprender novas maneiras de melhorar minhas skills e meu produto. <a href="#contact" className='text-contact'>Clique aqui para entrar em contato</a>
                     </p>
                     
                     

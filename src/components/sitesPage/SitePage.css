@@ -1,7 +1,11 @@
+
 .site-card-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 .site-text{
   color:#0079A7;

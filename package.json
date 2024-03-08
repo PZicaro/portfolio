@@ -12,10 +12,6 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
-<<<<<<< HEAD
-=======
-    "react-bootstrap": "^2.10.1",
->>>>>>> casa
     "react-dom": "^18.2.0",
     "swiper": "^11.0.7"
   },
