@@ -31,10 +31,10 @@ const SitePage = () => {
     ];
   
     return (
-      <div id="container-tec">
-        <div className="tec-content">
-          <h1 className="tecnologies-text">My Websites</h1>
-          <div className="tec-card-content">
+      <div id="container-site">
+        <div className="site-content">
+          <h1 className="site-text">My Websites</h1>
+          <div className="site-card-content">
             {websites.map((website, index) => (
               <SiteComponent
                 key={index}

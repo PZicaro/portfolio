@@ -1,26 +1,33 @@
 
-import photoHeader from './imagens/Avatar.svg'
-import gitLogo from './imagens/carbon_logo-github.svg'
+import photoHeader from './public/Avatar.svg'
+import gitLogo from './public/carbon_logo-github.svg'
+import gitLogoContato from './public/github_contact.svg'
 import './App.css'
-import  FirstPage  from './components/FiestPage/FirstPage'
+import  FirstPage  from './components/FirstPage/FirstPage'
 import HeaderComponent from './components/Header/HeaderComponent'
-import emoji from './imagens/Fame.svg'
-import upload from './imagens/upload.svg'
+import emoji from './public/Fame.svg'
+import upload from './public/upload.svg'
 import AboutMePage from './components/SobreMim/AboutMePage'
-import foto from './imagens/foto.jpg'
+import foto from './public/foto.jpg'
 import Tecnologies from './components/Tec/Tecnologies'
-import html from './imagens/html.svg'
+import html from './public/html.svg'
+import wpp from './public/whatsapp.svg'
+import linkedin from './public/linkedin.svg'
+import Contato from './components/ContatoPage/Contato'
 import SitePage from './components/sitesPage/SitePage'
 function App() {
-  let imagens = [photoHeader, gitLogo, emoji, upload, foto];
+  let imagens = [photoHeader, gitLogo, emoji, upload, foto, wpp, linkedin, gitLogoContato];
+  
 
   return (
     <>
-    <HeaderComponent imagens ={imagens}/>
+    <HeaderComponent  imagens ={imagens}/>
     <FirstPage image={imagens}/>
     <AboutMePage image={imagens}/>
     <Tecnologies tecImages={html}/>
     <SitePage/>
+    <Contato image={imagens}/>
+
 
    
     </>

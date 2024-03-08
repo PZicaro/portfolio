@@ -5,10 +5,7 @@ const FirstPage = ({ image }) => {
     return (
         <div className="container">
             <img src="" alt="" />
-            <p className='color hello'>
-                <img src={image[2]} alt="" />
-                Hello, World!
-            </p>
+            
             <h1>Ícaro Rodrigues</h1>
             <p className='subtitle color'>Desenvolvedor Front-end</p>
             <button className='first-page-button'><img src={image[3]} alt="" /> Currículo </button>
