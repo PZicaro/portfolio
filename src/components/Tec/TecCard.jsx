@@ -3,7 +3,7 @@ function TecCard({tecImages, TecNome}) {
     return (
         <>
         <div className="card">
-                <img src={tecImages}  className='tecnologies-image'alt="" />
+                {<img src={tecImages}  className='tecnologies-image'alt="" />}
             <p className="text-card">
                 {TecNome}
             </p>

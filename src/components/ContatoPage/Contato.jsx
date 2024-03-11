@@ -25,10 +25,10 @@ const Contato = ({image}) => {
         <button type="submit" className="first-page-button">Enviar</button>
       </form>
     </div>
-    <div className="container">
+    <div id='another-contact' className="container">
         <div className="another-contacts">
             <div className="another-contacts-content">
-                <div id='another-contact'className="text-another-contacts">
+                <div className="text-another-contacts">
                 <h2>Contato</h2>
                 <p>Me mande uma mensagem</p>
 

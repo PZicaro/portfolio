@@ -1,5 +1,6 @@
 import TecCard from "./TecCard";
 import './Tecnologies.css'
+import { IoLogoFirebase } from "react-icons/io5";
 
 function Tecnologies({tecImages}) {
     return (
@@ -10,13 +11,13 @@ function Tecnologies({tecImages}) {
                 Tecnologias
             </p>
             <div className="tec-card-content">
-                <TecCard tecImages={tecImages} TecNome={'HTML'}/>
-                <TecCard tecImages={tecImages} TecNome={'CSS'}/>
-                <TecCard tecImages={tecImages} TecNome={'JavaScript'}/>
-                <TecCard tecImages={tecImages} TecNome={'React'}/>
-                <TecCard tecImages={tecImages} TecNome={'Bootstrap'}/>  
-                <TecCard tecImages={tecImages} TecNome={'Sass'}/>  
-                <TecCard tecImages={tecImages} TecNome={'Firebase'}/>  
+                <TecCard tecImages={tecImages[8]} TecNome={'HTML'}/>
+                <TecCard tecImages={tecImages[11]} TecNome={'CSS'}/>
+                <TecCard tecImages={tecImages[9]} TecNome={'JavaScript'}/>
+                <TecCard tecImages={tecImages[10]} TecNome={'React'}/>
+                <TecCard tecImages={tecImages[12]} TecNome={'Bootstrap'}/>  
+                <TecCard tecImages={tecImages[13]} TecNome={'Sass'}/>  
+                <TecCard tecImages={tecImages[14]} TecNome={'Firebase'}/>  
                 
 
 

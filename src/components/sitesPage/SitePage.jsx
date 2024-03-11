@@ -17,7 +17,7 @@ const SitePage = () => {
         image: taskManager,
         title: 'Administrador de Tarefas',
         link: 'https://task-manager-icr.vercel.app',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['ReactL', 'CSS', '(Fora do ar- Demonstração no github)']
       },
       {
         image: siteIt,
