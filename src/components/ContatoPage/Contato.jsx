@@ -49,7 +49,7 @@ const Contato = ({image}) => {
                 </div>
                
 
-            <img src={celular} alt="" />
+            <img className='celular' src={celular} alt="" />
 
             </div>
         </div>

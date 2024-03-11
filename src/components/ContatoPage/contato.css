@@ -118,3 +118,8 @@
   border-radius:5px;
   
 }
+@media(max-width:512px){
+  .celular{
+    width: 280px;
+  }
+}
