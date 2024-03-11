@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './header.style.css';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdExit } from "react-icons/io";
-
 function HeaderComponent({ imagens }) {
     // Define o estado para controlar a visibilidade do menu mobile
     const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
