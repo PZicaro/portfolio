@@ -122,4 +122,12 @@
   .celular{
     width: 280px;
   }
+  
+ 
+}
+@media(max-width:768px){
+  .title-contact {
+    font-size: 20px;
+    }
+ 
 }
