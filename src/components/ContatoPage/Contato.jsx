@@ -9,10 +9,10 @@ const Contato = ({image}) => {
       <h1 className='title-contact'>Entre em <span className="color">Contato</span></h1>
       <p className="subtitle-contact">Se você tiver alguma dúvida ou precisar de mais informações, sinta-se à vontade para nos contatar pelo card abaixo </p>
       <p className='subtitle-contact'>ou <a href="#another-contact"><span className="color">Clique aqui</span> </a>Para outras formas de contato.</p>
-      <form>
+      <form method="POST" action="https://formsubmit.co/icaro2rodrigues@gmail.com">
         <div className="form-group">
           <label htmlFor="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required />
+          <input type="text" id="nome" name="name" required />
         </div>
         <div className="form-group">
           <label htmlFor="email">E-mail:</label>
@@ -20,7 +20,7 @@ const Contato = ({image}) => {
         </div>
         <div className="form-group">
           <label htmlFor="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <textarea type="text" id="mensagem" name="message" rows="4" required></textarea>
         </div>
         <button type="submit" className="first-page-button">Enviar</button>
       </form>
