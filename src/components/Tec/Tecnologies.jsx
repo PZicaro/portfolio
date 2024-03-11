@@ -1,6 +1,5 @@
 import TecCard from "./TecCard";
 import './Tecnologies.css'
-import { IoLogoFirebase } from "react-icons/io5";
 
 function Tecnologies({tecImages}) {
     return (
