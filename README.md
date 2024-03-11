@@ -1,8 +1,14 @@
-# React + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Resumo
+Olá! Bem-vindo ao meu portfólio. Sou um desenvolvedor web apaixonado por criar experiências incríveis para os usuários. Com minha experiência em React, CSS e Firebase, entre outras tecnologia,  busco desenvolver aplicações web modernas e funcionais.
 
-Currently, two official plugins are available:
+Esse projeto tem como principal objetivo demonstrar um pouco do meu trabalho. É uma porta de entrada para você que quer contratar, os meus serviços, espero que goste
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Acesse meu portfólio](https://portfolio-pzicaro.vercel.app/#container-site)
+
+
+Tecnologias Utilizadas:
+- React
+- CSS
+- Firebase
