@@ -10,7 +10,7 @@ const SitePage = () => {
       {
         image: enxoval,
         title: 'Site de Casamento',
-        link: 'https://casamento-781qihv31-pzicaro.vercel.app',
+        link: 'https://casamento-ten.vercel.app',
         technologies: ['React', 'Styled-components', 'FireBase', 'TypeScript']
       },
       {
