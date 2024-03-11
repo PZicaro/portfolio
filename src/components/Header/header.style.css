@@ -33,7 +33,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin: 0 20px; 
-    font-family:'Mulish';
+    font-family:'Mulish', "Roboto";
     font-weight: 500;
     opacity: 1;
     transition: ease 0.3s;
