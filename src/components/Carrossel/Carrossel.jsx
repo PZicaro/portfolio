@@ -2,8 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import 'swiper/css/autoplay';
+
 import './Carrossel.css';
 
 // Importar os estilos opcionais
@@ -19,20 +18,25 @@ import vuePDF from '../../public/vue.pdf';
 import css3PDF from '../../public/CSS3.pdf';
 import reactPDF from '../../public/react.pdf';
 
+import { Autoplay, Pagination } from 'swiper/modules';
+
 const certificados = [
   { imagem: certificado1, texto: 'Segurança da informação', link: segurancaDaInformacaoPDF  },
-  { imagem: certificado2, texto: 'Front-end', link: frontendPDF },
-  { imagem: certificado3, texto: 'Vue', link: vuePDF },
   { imagem: certificado4, texto: 'CSS3', link: css3PDF },
+  { imagem: certificado2, texto: 'Front-end', link: frontendPDF },
   { imagem: certificado5, texto: 'Fundamentos React', link: reactPDF },
+  { imagem: certificado3, texto: 'Vue', link: vuePDF },
 ];
 
 const Carrossel = () => {
   return (
     <Swiper
       pagination={{ clickable: true }}
-      loop={true}
-      autoplay={{ delay: 3000 }}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
+      modules={[Pagination, Autoplay]}
       className="mySwiper"
     >
       {certificados.map((certificado, index) => (
