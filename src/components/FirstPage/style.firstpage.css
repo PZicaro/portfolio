@@ -86,3 +86,21 @@ h1 {
       font-size: 6vw;
   }
 }
+@media screen and (max-width: 768px) {
+  .bolhas span {
+    width: 20px; 
+    height: 20px; 
+  }
+  h1{
+    font-size: 40px;
+  }
+  .subtitle{
+    font-size: 30px;
+  }
+} 
+@media screen and (max-width: 450px) {
+  .bolhas span {
+    width: 10px; 
+    height: 10px; 
+  }
+} 
