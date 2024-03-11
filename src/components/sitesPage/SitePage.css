@@ -8,7 +8,7 @@
   margin: auto;
 }
 .site-text{
-  color:#0079A7;
+  color:#009FD6;
   font-size: 3em;
 }
 .site-card-content .website-card {
@@ -89,4 +89,5 @@
   .site-card-content {
     grid-template-columns: repeat(2, 1fr);
   }
+ 
 }
