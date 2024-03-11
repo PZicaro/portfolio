@@ -9,13 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
 }
 
 header {
     width: 100%;
-    padding: 30px 4%; /* Reduzido o espaçamento para telas menores */
-    min-height: 10vh; /* Reduzido a altura mínima */
-    max-height: 15vh; /* Reduzido a altura máxima */
+    padding: 30px 4%; 
+    min-height: 10vh; 
+    max-height: 15vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,22 +32,80 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin: 0 20px; /* Reduzido o espaçamento entre os itens do menu para telas menores */
+    margin: 0 20px; 
     font-family:'Mulish';
     font-weight: 500;
+    opacity: 1;
+    transition: ease 0.3s;
 }
-
+header nav ul li:hover {
+    opacity: 0.5;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 a {
     color: #fff;
     text-decoration: none;
 }
+.mobile-content{
+    display: none;
+}
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    overflow-y: auto;
+    flex-direction: column; 
+    padding-top: 60px; 
+    font-size: 1rem;
+    background-color: #171f2b9f;
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 0.7s ease; 
+    transform: translateY(-100%); 
+}
 
-/* No seu código CSS anterior */
+.mobile-menu.show {
+    transform: translateY(0); 
+}
+
+.mobile-menu nav{
+    width:60%;
+}
+.mobile-menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #171F2B;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.menu-hamburger {
+    display: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    top: 30px; 
+    right: 20px; 
+    z-index: 1001; 
+}
+
 button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer; /* Adicionado aqui */
+    cursor: pointer; 
     background-color: #171F2B;
     color: #6587BF;
     border: solid 1px #6587BF ;
@@ -62,19 +121,23 @@ button {
     white-space: nowrap;
 }
   button:hover {
-    opacity: 0.5; /* Alterando a cor de fundo ao passar o mouse */
+    opacity: 0.5; 
     transition: 0.5s ease; 
   }
-/* Adicionado media query para ajustar o layout em telas menores */
+
 @media only screen and (max-width: 768px) {
-    header {
-        padding: 20px 4%; /* Reduzido o espaçamento para telas menores */
+    .flex{
+        display: none;
     }
-    header nav ul li {
-        margin: 0 10px; /* Reduzido o espaçamento entre os itens do menu para telas ainda menores */
+    .menu-hamburger{
+        display: flex;
     }
-    button {
-        padding: 10px 20px; /* Reduzido o padding para telas menores */
-        font-size: 12px; /* Reduzido ainda mais o tamanho da fonte para telas menores */
-    }
+    .mobile-content{
+        display: block;
+
+        
+}
+.mobile-menu{
+    display: flex;
+}
 }
