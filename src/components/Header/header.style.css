@@ -45,6 +45,10 @@ header nav ul li:hover {
     align-items: center;
     justify-content: space-between;
 }
+.image-header{
+    width: 60px;
+    border-radius: 50%;
+}
 a {
     color: #fff;
     text-decoration: none;

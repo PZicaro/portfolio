@@ -20,7 +20,7 @@ function HeaderComponent({ imagens }) {
             <div className="container-header">
                 <div className="header-content">
                     <a href="#">
-                        <img src={imagens[0]} alt="" />
+                        <img className='image-header'src={imagens[0]} alt="" />
                     </a>
 
                     <div className="flex">
