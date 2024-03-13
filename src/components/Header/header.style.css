@@ -48,6 +48,10 @@ header nav ul li:hover {
 .image-header{
     width: 60px;
     border-radius: 50%;
+    transition: ease, 0.5s ;
+}
+.image-header:hover{
+    opacity: 0.5;
 }
 a {
     color: #fff;
