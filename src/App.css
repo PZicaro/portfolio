@@ -16,4 +16,6 @@ body{
     #010710;
     overflow-x: hidden;
 }
-
+button{
+    background-color: white !important;
+}

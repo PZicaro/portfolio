@@ -1,8 +1,12 @@
+import { useContext } from "react";
 import TecCard from "./TecCard";
 import './Tecnologies.css'
+import { ImageContext } from "../../contexts/ImageContext";
 
-function Tecnologies({tecImages}) {
+function Tecnologies() {
+    const imagens = useContext(ImageContext)
     return (
+        
         <>
         <div id="container-tec" >
         <div className="tec-content">
@@ -10,13 +14,13 @@ function Tecnologies({tecImages}) {
                 Tecnologias
             </p>
             <div className="tec-card-content">
-                <TecCard tecImages={tecImages[8]} TecNome={'HTML'}/>
-                <TecCard tecImages={tecImages[11]} TecNome={'CSS'}/>
-                <TecCard tecImages={tecImages[9]} TecNome={'JavaScript'}/>
-                <TecCard tecImages={tecImages[10]} TecNome={'React'}/>
-                <TecCard tecImages={tecImages[12]} TecNome={'Bootstrap'}/>  
-                <TecCard tecImages={tecImages[13]} TecNome={'Sass'}/>  
-                <TecCard tecImages={tecImages[14]} TecNome={'Firebase'}/>  
+                <TecCard tecImages={imagens[8]} TecNome={'HTML'}/>
+                <TecCard tecImages={imagens[11]} TecNome={'CSS'}/>
+                <TecCard tecImages={imagens[9]} TecNome={'JavaScript'}/>
+                <TecCard tecImages={imagens[10]} TecNome={'React'}/>
+                <TecCard tecImages={imagens[12]} TecNome={'Bootstrap'}/>  
+                <TecCard tecImages={imagens[13]} TecNome={'Sass'}/>  
+                <TecCard tecImages={imagens[14]} TecNome={'Firebase'}/>  
                 
 
 

@@ -32,3 +32,32 @@
 
     }
 }
+.container-item-grow {
+    display: flex;
+    flex-grow: 1; /* Faz com que este item cresça para preencher o 
+    espaço disponível */
+    background-color: #ffcccb;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  .container-item-shrink {
+    display: flex;
+    flex-shrink: 2; /* Este item encolherá duas vezes mais
+     rápido que os outros */
+    background-color: #c2f0fc;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  .container-item-wrap {
+    display: flex;
+    flex-basis: 200px; /* Define o tamanho base do item */
+    flex-wrap: wrap; /* Permite que o item seja quebrado em várias linhas */
+    background-color: #d0f0c0;
+    width: 200px; /* Largura inicial */
+    height: 100px;
+    margin: 10px;
+  }

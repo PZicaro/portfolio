@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './AboutMePage.css'; // Estilo CSS para a página
 import Carrossel from '../Carrossel/Carrossel';
+import { ImageContext } from '../../contexts/ImageContext';
 
 
-const AboutMePage = ({image,}) => {
+const AboutMePage = () => {
+    const imagens = useContext(ImageContext)
     return (
         <div id='about-me' className="about-me-container">
             
             <div className="about-me-content">
-                <img src={image[4]} alt="Minha Foto" className="profile-picture" /> 
+                <img src={imagens[4]} alt="Minha Foto" className="profile-picture" /> 
                 <div className="text-container">
                     <h1 className="title">Sobre Mim</h1>
                     <p className="description">

@@ -47,20 +47,17 @@ h1 {
   letter-spacing: 0em;
 }
 
-.hello {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0em;
+
+.download{
+  color: black;
 }
 .first-page-button {
-  color: black;
+  color: black !important;
+  background-color: white !important;
   width: auto; /* Ajustando a largura automaticamente para se adaptar ao conteúdo */
   height: auto; /* Ajustando a altura automaticamente para se adaptar ao conteúdo */
   padding: 16px 48px; /* Alterando a forma como o padding é definido */
   border-radius: 16px;
-  background-color: #ffff;
   margin-top: 3rem;
   display: flex; /* Adicionando para tornar o botão responsivo */
   align-items: center; /* Adicionando para alinhar verticalmente */

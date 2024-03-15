@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './contato.css'
 import celular from '../../public/celular.svg'
-const Contato = ({image}) => {
+import { ImageContext } from '../../contexts/ImageContext';
+const Contato = () => {
+  const imagens = useContext(ImageContext)
   return (
     <>
     <div id='contact' className="container">
@@ -22,7 +24,7 @@ const Contato = ({image}) => {
           <label htmlFor="mensagem">Mensagem:</label>
           <textarea type="text" id="mensagem" name="message" rows="4" required></textarea>
         </div>
-        <button type="submit" className="first-page-button">Enviar</button>
+        <button type="submit" >Enviar</button>
       </form>
     </div>
     <div id='another-contact' className="container">
@@ -38,11 +40,11 @@ const Contato = ({image}) => {
 
                     <a href="
                     https://wa.me/+5577988364540?text=icarowpp
-                    "><button> <img src={image[5]} alt="" />Whatsapp</button></a>
+                    "><button> <img src={imagens[5]} alt="" />Whatsapp</button></a>
 
-                    <a href="https://www.linkedin.com/in/ícaro-rodrigues-07256820a/"><button>  <img src={image[6]} alt="" /> LinkedIn</button></a>
+                    <a href="https://www.linkedin.com/in/ícaro-rodrigues-07256820a/"><button>  <img src={imagens[6]} alt="" /> LinkedIn</button></a>
 
-                    <a href="https://github.com/PZicaro"><button> <img src={image[7]} alt="" /> GitHub</button></a>
+                    <a href="https://github.com/PZicaro"><button> <img src={imagens[7]} alt="" /> GitHub</button></a>
                 </div>
                 
 

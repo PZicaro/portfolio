@@ -1,15 +1,20 @@
 import './style.firstpage.css'
 import path from '../../public/curriculo-atualizado.pdf'
+import { ImageContext } from '../../contexts/ImageContext';
+
+import  {useContext} from 'react'
 // FirstPage.jsx
-const FirstPage = ({ image }) => {
+const FirstPage = () => {
+    const imagens = useContext(ImageContext)
+
     return (
         <div className="container">
             <img src="" alt="" />
             
             <h1>Ícaro Rodrigues</h1>
             <p className='subtitle color'>Desenvolvedor Front-end</p>
-            <a href={path} download>
-            <button className='first-page-button'><img src={image[3]} alt="" /> Currículo </button>
+            <a className='download'href={path} download>
+            <button className='first-page-button'><img src={imagens[3]} alt="" /> Currículo </button>
 
             </a>
 

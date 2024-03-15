@@ -6,6 +6,7 @@ import taskManager from '../../public/TaskManager.png'
 import siteIt from '../../public/Site-It.png'
 
 const SitePage = () => {
+   
     const websites = [
       {
         image: enxoval,
