@@ -9,3 +9,8 @@ body::-webkit-scrollbar {
     background-color:#223046 ;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
   }
+  p, h1, h2{
+    cursor: default;
+  }
+
+ 
