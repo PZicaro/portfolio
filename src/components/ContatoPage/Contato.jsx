@@ -34,7 +34,7 @@ const Contato = () => {
                 <h2>Contato</h2>
                 <p>Me mande uma mensagem</p>
 
-                <a href="">icaro2rodrigues@gmail.com</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=icaro2rodrigues@gmail.com&su=Assunto do Email&body=Corpo do Email">icaro2rodrigues@gmail.com</a>
 
                 <div className="button-contact">
 
