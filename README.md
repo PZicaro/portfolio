@@ -11,4 +11,4 @@ Esse projeto tem como principal objetivo demonstrar um pouco do meu trabalho. É
 Tecnologias Utilizadas:
 - React
 - CSS
-- Firebase
+
